@@ -1,0 +1,44 @@
+{
+  "name": "dove",
+  "version": "0.1.0",
+  "description": "Simple REPL to interact with argo hypermedia APIs",
+  "main": "dove.js",
+  "dependencies": {
+    "es6-promise": "^2.0.1"
+  },
+  "devDependencies": {},
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "readline": "github:jspm/nodelibs-readline@^0.1.0",
+      "request": "npm:request@^2.54.0",
+      "theseus": "npm:theseus@^0.3.2",
+      "uri-templates": "npm:uri-templates@^0.1.5",
+      "util": "github:jspm/nodelibs-util@^0.1.0"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.87",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.87"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/argo-rest/dove.git"
+  },
+  "keywords": [
+    "argo",
+    "hypermedia",
+    "api",
+    "repl",
+    "client"
+  ],
+  "author": "Sébastien Cevey <seb@cine7.net>",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/argo-rest/dove/issues"
+  },
+  "homepage": "https://github.com/argo-rest/dove"
+}
