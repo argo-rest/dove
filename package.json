@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Simple REPL to interact with argo hypermedia APIs",
   "main": "dove.js",
+  "bin": {
+    "dove": "./dove.js"
+  },
   "dependencies": {
     "es6-promise": "^2.0.1"
   },
