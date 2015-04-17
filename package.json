@@ -7,7 +7,8 @@
     "dove": "./dove.js"
   },
   "dependencies": {
-    "es6-promise": "^2.0.1"
+    "es6-promise": "^2.0.1",
+    "systemjs": "^0.16.7"
   },
   "devDependencies": {},
   "jspm": {
