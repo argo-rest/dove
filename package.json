@@ -1,6 +1,6 @@
 {
   "name": "dove",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Simple REPL to interact with argo hypermedia APIs",
   "main": "dove.js",
   "bin": {
