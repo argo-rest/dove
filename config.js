@@ -10,10 +10,10 @@ System.config({
   "map": {
     "readline": "github:jspm/nodelibs-readline@0.1.0",
     "request": "npm:request@2.54.0",
-    "theseus": "npm:theseus@0.3.2",
+    "theseus": "npm:theseus@0.4.0",
     "traceur": "github:jmcriffey/bower-traceur@0.0.87",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.87",
-    "uri-templates": "npm:uri-templates@0.1.5",
+    "uri-templates": "npm:uri-templates@0.1.7",
     "util": "github:jspm/nodelibs-util@0.1.0",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -454,12 +454,6 @@ System.config({
       "stream-browserify": "npm:stream-browserify@1.0.0",
       "string_decoder": "npm:string_decoder@0.10.31"
     },
-    "npm:readline@0.0.7": {
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
-      "events": "github:jspm/nodelibs-events@0.1.0",
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "util": "github:jspm/nodelibs-util@0.1.0"
-    },
     "npm:request@2.54.0": {
       "aws-sign2": "npm:aws-sign2@0.5.0",
       "bl": "npm:bl@0.9.4",
@@ -535,8 +529,8 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
-    "npm:theseus@0.3.2": {
-      "uri-templates": "npm:uri-templates@0.1.5"
+    "npm:theseus@0.4.0": {
+      "uri-templates": "npm:uri-templates@0.1.7"
     },
     "npm:timers-browserify@1.4.0": {
       "process": "npm:process@0.10.1"
@@ -561,7 +555,7 @@ System.config({
       "tls": "github:jspm/nodelibs-tls@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
-    "npm:uri-templates@0.1.5": {
+    "npm:uri-templates@0.1.7": {
       "path": "github:jspm/nodelibs-path@0.1.0",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0"
