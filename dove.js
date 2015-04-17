@@ -1,7 +1,13 @@
 #!/usr/bin/env node
 
+var path = require('path');
 var System = require('systemjs');
 require('./config');
+
+// Tell SystemJS where the root is
+var doveDir = path.dirname(process.argv[1]);
+System.baseURL = doveDir;
+
 
 var uriArgument = process.argv[2];
 
